@@ -4,7 +4,7 @@ const TodoLists = (props) => {
 
     return (
     <div className = "todo__style">
-        <i className = "fa fa-times" aria-hidden = "true" 
+        <i className = "fa fa-times" area-hidden = "true" 
             onClick = {() => {
                 return props.onSelect(props.id)
             }}
